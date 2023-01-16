@@ -1,0 +1,39 @@
+$color-black: #000000;
+$color-red: #ff0000;
+$color-white: #ffffff;
+$color-white-01: #f8f8f8;
+
+$color-background: #f8f7fa;
+$color-border: #cbcacd;
+$color-border-hover: #87858c;
+$color-border-focus: #7367f0;
+$color-sidebar-item-title: #828086;
+$color-sidebar-item-hover: #f9f9fa;
+$color-sidebar-item-focus: #f4f4f4;
+
+$v-global-theme-primary: rgb(115, 103, 240);
+$v-shadow-key-umbra-opacity: rgb(51, 48, 60, 0.03);
+$v-shadow-key-penumbra-opacity: rgb(51, 48, 60, 0.02);
+$v-shadow-key-ambient-opacity: rgb(51, 48, 60, 0.01);
+
+$grid-breakpoints: (
+    xs: 399px,
+    sm: 575px,
+    md: 767px,
+    lg: 991px,
+    xl: 1199px,
+    xxl: 1399px,
+);
+
+// z-index management
+$zIndex: (
+    menu: 100,
+    popup: 200,
+    chatBox: 300,
+    searchForm: 150,
+);
+
+$border-hover-color: rgb(75, 90, 92);
+$border-focused-width: 2px;
+$header-font-color: rgba(51, 48, 60, 0.87);
+$text-subtitle-font-color: rgba(51, 48, 60, 0.68);
